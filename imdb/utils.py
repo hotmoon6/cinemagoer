@@ -442,9 +442,9 @@ def analyze_title(title, canonical=None, canonicalSeries=None, canonicalEpisode=
         except (TypeError, ValueError):
             pass
     if imdbIndex:
-    result['imdbIndex'] = imdbIndex.strip()
-result['kind'] = kind.capitalize() or 'Movie'
-return result
+        result['imdbIndex'] = imdbIndex.strip()
+    result['kind'] = kind or 'movie'
+    return result
 
 
 _web_format = '%d %B %Y'
