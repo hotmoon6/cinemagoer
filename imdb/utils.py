@@ -56,7 +56,7 @@ KIND_MAP = {
     'tv episode': 'episode',
     'v': 'video movie',
     'video': 'video movie',
-    'vg': 'video game',
+    'vg': 'Video Game',
     'mini': 'tv mini series',
     'tv mini-series': 'tv mini series',
     'tv miniseries': 'tv mini series',
